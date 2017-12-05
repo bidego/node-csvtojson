@@ -16,7 +16,7 @@ csv()
 .on('done',(error)=>{
     if(error) console.error(error)
 
-    fs.writeFile(jsonFilePath, JSON.stringify(jsonOut))  
+    fs.writeFile(jsonFilePath, JSON.stringify(jsonOut,null,2))  
     console.log('end')
 })
 
