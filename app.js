@@ -14,9 +14,9 @@ csv()
     jsonOut.push(jsonObj)
 })
 .on('done',(error)=>{
-    if(error) console.error(error)
+    if(error) process.exit(1)
 
-    fs.writeFile(jsonFilePath, JSON.stringify(jsonOut,null,2))  
-    console.log('end')
+    fs.writeFile(jsonFilePath, JSON.stringify(jsonOut,null,2), error=> { if(error) process.exit(1) })  
+    console.log('done!')
 })
 
