@@ -1,0 +1,24 @@
+{
+  "name": "node-csvtojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "csvtojson": "1.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bidego/node-csvtojson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bidego/node-csvtojson/issues"
+  },
+  "homepage": "https://github.com/bidego/node-csvtojson#readme"
+}
